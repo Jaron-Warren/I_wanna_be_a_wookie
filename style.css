@@ -1,0 +1,59 @@
+@font-face {
+  font-family:"solo";
+  src: url("soloist1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"sololaser";
+  src: url("soloistlaserital1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"soloist3d";
+  src: url("soloist3d.ttf") format("truetype");
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+h1 {
+  margin-bottom: 0;
+  font-family: sololaser;
+}
+.solo {
+  font-family: solo;
+}
+/* .border {
+  border-width: 10px !important;
+} */
+.border-left {
+  border-width: 1rem !important;
+}
+.hero {
+  background-image: url(wookies.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-lgray {
+  background: linear-gradient(#929195, #555056);
+}
+.bg-wblue {
+  background-color: #455c7e;
+}
+.solowhite {
+  font-family: soloist3d;
+}
+.position-relative.d1 {
+  top: 3rem;
+}
+.text-light {
+  text-shadow: 1px 1px 15px black;
+}
+/* .justify-self-right {
+  justify-self: right !important;
+} */
