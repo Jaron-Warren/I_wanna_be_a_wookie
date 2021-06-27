@@ -14,7 +14,7 @@
 
 <body class="bg-light">
 
-  <header class="container-fluid">
+  <header class="container-fluid sticky-top">
     <div class="row">
       <div class="col bg-secondary py-2">
         <h1 class="mdi mdi-rocket-launch-outline pl-3">Wookie Trainer</h1>
@@ -23,7 +23,7 @@
   </header>
   <main class="container-fluid">
     <div id="row1" class="row justify-content-center border border-dark hero p-5">
-      <div class="col-4">
+      <div class="col-md-4">
         <i class="font-weight-light text-light">Discover your inner Wookie!</i>
         <form class="bg-dark p-3" action="" target="_blank">
           <h6 class="solo text-light mdi mdi-rocket-outline"> Let's get started</h6>
@@ -34,10 +34,10 @@
             <input type="text" class="form-control" id="wookieEmail" placeholder="Email">
           </div>
           <div class="form-row">
-            <div class="col">
+            <div class="col-md">
               <input type="text" class="form-control" id="wookiePhone" placeholder="Phone">
             </div>
-            <div class="col">
+            <div class="col-md">
               <input type="text" class="form-control" id="wookieCreditCard" placeholder="Credit Card">
             </div>
           </div>
@@ -52,9 +52,9 @@
           <button type="submit" value="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
-      <div class="col-8">
+      <div class="col-sm-8">
         <div class="row">
-          <div class="col-12 border-left border-primary pl-4 ml-5 solo text-light solo text-light">
+          <div class="col-sm-12 border-left border-primary pl-4 ml-5 solo text-light solo text-light d-none d-md-block">
             <h3>Wish you were a wookie?</h3>
             <p>We have helped countless individuals through our personal wookie trainers! Tell us about yourself!
               Include
@@ -64,45 +64,45 @@
       </div>
     </div>
     <div id="row2" class="row pt-4 bg-wblue">
-      <div class="col-5">
+      <div class="col-sm-5 order-2 order-md-1">
         <h3 class="solo">Wookie ablities are awesome!</h3>
         <p class="solo">From ripping arms out of sockets to roaring like a mutant monkey, your friends will be
           impressed when they see your new skills!
         </p>
       </div>
-      <div class="col-7">
+      <div class="col-sm-7 order-1 order-md-2">
         <div class="card position-relative d1">
           <div class="row justify-content-around">
-            <div class="col-12">
+            <div class="col-sm-12">
               <i class="mdi mdi-checkbook"></i>
               <label class="solo border-bottom border-dark">Skills:</label>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <i class="mdi mdi-arm-flex"></i>
               <label for="file" class="solo">strength: </label>
             </div>
-            <div class="col-7">
+            <div class="col-sm-7">
               <progress id="file" value="100" max="100"> 100% </progress>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <i class="mdi mdi-brain"></i>
               <label for="file" class="solo">inteligence: </label>
             </div>
-            <div class="col-7">
+            <div class="col-sm-7">
               <progress id="file" value="25" max="100"> 25% </progress>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <i class="mdi mdi-emoticon-excited"></i>
               <label for="file" class="solo">good looks: </label>
             </div>
-            <div class="col-7">
+            <div class="col-sm-7">
               <progress id="file" value="70" max="100"> 70% </progress>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <i class="mdi mdi-food"></i>
               <label for="file" class="solo">appetite: </label>
             </div>
-            <div class="col-7">
+            <div class="col-sm-7">
               <progress id="file" value="90" max="100"> 90% </progress>
             </div>
           </div>
@@ -110,18 +110,19 @@
       </div>
     </div>
     <div id="row3" class="row align-items-center">
-      <div class="col-4 px-5 mt-5">
+      <div class="col-md-4 px-5 mt-5">
         <img class="img-fluid border border-dark" src="Wookieprofile.jpg">
       </div>
-      <div class="col-8 mt-5">
+      <div class="col-sm-8 mt-5">
         <div class="row align-items-center">
-          <div class="col-12">
+          <div class="col-sm-12">
             <h2 class="mdi mdi-target-account solo">Please respect our wookies, they are dangerous!</h2>
-            <p class="solo">Wookiees are a species of tall, hairy humanoids that are native to the planet Kashyyyk. They
+            <p class="solo">Wookiees are a species of tall, hairy humanoids that are native to the planet
+              Kashyyyk. They
               are quite strong, and known to rip people's arms out of their sockets when provoked.</p>
           </div>
-          <div class="col-8"></div>
-          <div class="col-4 align-self-end">
+          <div class="col-sm-8"></div>
+          <div class="col-sm-4 align-self-end">
             <button type="button" class="justify-self-right solo"><a href="https://starwars.fandom.com/wiki/Kashyyyk"
                 target="_blank">More
                 info</a></button>
@@ -130,15 +131,15 @@
       </div>
     </div>
     <div id="row4" class="row p-5 align-items-center">
-      <div class="col-4">
-        <div class="card p-1 solo">
+      <div class="col-sm-4 order-2 order-sm-1">
+        <div class="card p-1 solo text-center">
           <p>"It's not wise to upset a Wookie."
             <br>
             -Han Solo
           </p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-sm-4 order-1 order-sm-2">
         <div class="card px-1">
           <div class="card-body">
             <div class="row justify-content-center">
@@ -146,15 +147,15 @@
               <i class="mdi mdi-star"></i>
               <i class="mdi mdi-star"></i>
             </div>
-            <p class="solo">"I Suggest A New Strategy, R2 - Let The Wookiee Win."
+            <p class="solo text-center">"I Suggest A New Strategy, R2 - Let The Wookiee Win."
               <br>
               - C-3PO
             </p>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card p-1 solo">
+      <div class="col-sm-4 order-3 order-sm-3">
+        <div class="card p-1 solo text-center">
           <p>"Wyaaaaaa. Ruh Ruh"
             <br>
             ( Hello, How are you? )
@@ -165,7 +166,7 @@
       </div>
     </div>
     <div row="row5" class="row bg-wblue">
-      <div class="col-12 p-4">
+      <div class="col-sm-12 p-4">
         <h3 class="solo">Sponsors:</h3>
         <p class="solo ml-3"> &there4; The Kashyyyk alliance &there4;
           <br>

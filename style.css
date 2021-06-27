@@ -12,6 +12,13 @@
   font-family:"soloist3d";
   src: url("soloist3d.ttf") format("truetype");
 }
+
+@media screen and (max-width: 768px) {
+  .position-relative.d1 {
+    top: -1rem!important;
+  }
+}
+
 body {
   min-height: 100vh;
   display: flex;
